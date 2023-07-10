@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#home" class="logo"> <img src="logo.png" alt=""> </a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times"></div>
+    <a href="#home">home</a>
+    <a href="#shop">shop</a>
+    <a href="#gallery">gallery</a>
+    <a href="#team">team</a>
+    <a href="#arrivals">arrivals</a>
+    <a href="#blogs">blogs</a>
+</nav>
+
+<!-- navbar section  -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide active">
+        <div class="content">
+            <img src="content-img-1.png" alt="">
+            <span>new arrivals 2023</span>
+            <h3>cosmetics</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="home-img-1.png" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="content-img-2.png" alt="">
+            <span>new arrivals 2023</span>
+            <h3>accessories</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="home-img-2.png" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="content-img-3.png" alt="">
+            <span>new collections</span>
+            <h3>skin care</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="home-img-3.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="category-1.png" alt="">
+        <p>Cosmetics</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="category-2.png" alt="">
+        <p>Skincare</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="category-3.png" alt="">
+        <p>Makeup</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="category-4.png" alt="">
+        <p>Lotions</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="category-5.png" alt="">
+        <p>Lipstick</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="category-6.png" alt="">
+        <p>Eye</p>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="content">
+        <span>Why Choose Us?</span>
+        <h3>We let you feel beautiful,look beautiful and be beautiful inside and out</h3>
+        <p>Our mission is to elevate,enable,approve and eventually assemble confidence in ladies around the globe through astounding items that empower both inward and external beauty.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    
+    
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+<section class="shop" id="shop">
+
+    <div class="heading">
+        <h1>featured products</h1>
+        <p></p>
+    </div>
+
+    <div class="swiper products-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="product-8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 <span>Rs799.9</span></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+<!-- shop section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <h1>our products</h1>
+        <p>Top quality cosmetic products for our beauty lovers.</p>
+    </div>
+
+    <div class="lightbox">
+        <a href="team-3.png"><img src="Plum.jpeg" alt=""></a>
+        <a href="team-1.png"><img src="Laneige.jpg" alt=""></a>
+        <a href="img-3.jpg"><img src="Kylie.jpg" alt=""></a>
+        <a href="img-4.jpg"><img src="Toner.webp" alt=""></a>
+        <a href="girls.png"><img src="Cleanser.webp" alt=""></a>
+        <a href="pic-6.png"><img src="Serums.jpg" alt=""></a>
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+    <div class="heading">
+        <h1>our brand ambassadors</h1>
+        <p></p>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="model1.jpeg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>sana shaikh</h3>
+                <p>Makeup Artist & Model</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="model2.webp" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Meo Farnendo</h3>
+                <p>Designer & Model</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="model3.jpeg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>jennie</h3>
+                <p>Model & actress</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- team section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <div class="heading">
+        <h1>new arrivals</h1>
+        <p></p>
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="arrival-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>beauty products</p>
+                    <div class="price">Rs599.9 </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+    
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews">
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="customer.jpeg" alt="">
+                    <div class="info">
+                        <h3>Ritu Godara</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">I've been so shocked at how well my skin is reacting to your products! I ordered a couple of sample size products to try as my skin is sensitive and spot prone and nothing has worked this quickly before. Thank you so much for creating your beautiful, natural, organic skin care products.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images.jpeg" alt="">
+                    <div class="info">
+                        <h3>Shashi Rana</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Love this face wash. It smells beautiful and left my face feeling squeaky clean. Its has really helped with the oiliness, i can't believe how good my skin is looking and feeling after only a week of using. I will definitely be buying more of this and recommending it to everyone!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="customer2.jpeg" alt="">
+                    <div class="info">
+                        <h3>Niharika</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Fantastic cream! Really works wonders on my dry and sore skin. Never had a reaction to this cream, whereas I have reacted to lots of other organic creams. Excellent quality.Great transaction and communication. Gorgeous moisturiser, makes my dry skin feel soft and supple.</p>
+            </div>     
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- reviews section ends  -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box">
+        <img src="service-1.png" alt="">
+        <h3>free shipping</h3>
+        <p>Offer free shipping on above Rs759.9 shopping</p>
+    </div>
+
+    <div class="box">
+        <img src="service-2.png" alt="">
+        <h3>secure payment</h3>
+        <p>Offers you a user-friendly and relaible payment method, ensuring your shopping experience.</p>
+    </div>
+
+    <div class="box">
+        <img src="service-3.png" alt="">
+        <h3>2/4 support</h3>
+        <p>Available for providing support to our customers.</p>
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <h1>our daily blogs</h1>
+        <p>Discover makeup tips,skincare advice, healthy hair hacks and product reviews.</p>
+    </div>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by Kritika Khurana </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 16th January, 2023 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>That Boho Girl</h3>
+                    <p>Beauty & makeup tips by Kritika Khurana</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog2.webp" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by Ankita Srivastava </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 18th January, 2023 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Corallista</h3>
+                    <p>DIY makeups and beauty</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog3.webp" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by Aashna Shroff </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 25th January, 2023 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>The Snob Journal</h3>
+                    <p>the best of beauty, design, and globe-trotting ways</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog4.webp" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by Mehak Sagar </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 11th February, 2023 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Peaches & Blush</h3>
+                    <p>Talented Bridal beauty and Blogger</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog5.webp" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by Masoom Minawala </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 17th February, 2023 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Style Fiesta</h3>
+                    <p>Beauty and makeup tips</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+<!-- blogs section ends -->
+<div class="google-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.175134961477!2d76.65758911512631!3d30.516086481713128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1685271258396!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+            <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> shop</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+            <a class="link" href="#team"> <i class="fas fa-angle-right"></i> team</a>
+            <a class="link" href="#arrivals"> <i class="fas fa-angle-right"></i> arrivals</a>
+            <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my order </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my favorite </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> private policy </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-envelope"></i> girly@gmail.com </p>
+            <p> <i class="fas fa-map"></i> punjab, india - 140401</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email..." id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Miss Girly</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link      -->
+<script src="code.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .lightbox'));
+</script>
+    
+</body>
+</html>
